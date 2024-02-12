@@ -6,7 +6,7 @@ M = '\033[1;31m'; H = '\033[1;32m'; K = '\033[1;33m'; B = '\033[1;34m'; P = '\03
 cvurl = lambda url, host='https://www.like4like.org/': host + url if host not in url else url
 
 class Setup:
-    account_list = [('tukimins','akun123'), ('jamalud','akun123'), ('azzamxyz','akun123'), ('ipanxs','akun123'), ('animexyz','akun123'), ('tukimans','akun123')] #- paste akun (uname, pw)
+    account_list = []
     session_list = []
 
     def __init__(self):
